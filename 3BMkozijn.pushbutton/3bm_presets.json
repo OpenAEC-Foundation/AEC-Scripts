@@ -1,0 +1,318 @@
+{
+  "3bm_kozijn_presets": {
+    "description": "Standaard 3BM kozijn configuraties",
+    "version": "1.0",
+    "presets": [
+      {
+        "naam": "Standaard Raam 2-luiks",
+        "type": "raam",
+        "vakken_horizontaal": 2,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 1600,
+        "totale_hoogte_mm": 1200,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 90,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR+++ Triple (4-14-4-15-4)",
+        "offset_vloer_mm": 100,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 0.99,
+        "toepassing": "Woonkamer, slaapkamer"
+      },
+      {
+        "naam": "Standaard Raam 3-luiks",
+        "type": "raam",
+        "vakken_horizontaal": 3,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 2400,
+        "totale_hoogte_mm": 1500,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 90,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR+++ Triple (4-14-4-15-4)",
+        "offset_vloer_mm": 100,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 0.99,
+        "toepassing": "Woonkamer, puiraam"
+      },
+      {
+        "naam": "Thermo Kozijn 2-luiks",
+        "type": "raam",
+        "vakken_horizontaal": 2,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 1600,
+        "totale_hoogte_mm": 1200,
+        "randstijl_breedte_mm": 86,
+        "randstijl_dikte_mm": 120,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR+++ Triple (4-14-4-15-4)",
+        "offset_vloer_mm": 100,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 0.90,
+        "toepassing": "Passief bouwen, energieneutraal"
+      },
+      {
+        "naam": "Kunststof Basis 2-luiks",
+        "type": "raam",
+        "vakken_horizontaal": 2,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 1600,
+        "totale_hoogte_mm": 1200,
+        "randstijl_breedte_mm": 86,
+        "randstijl_dikte_mm": 120,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Kunststof",
+        "glas_type": "HR++ Dubbel (5-15-4)",
+        "offset_vloer_mm": 100,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 1.2,
+        "toepassing": "Standaard nieuwbouw",
+        "opmerking": "Houtnerfstructuur buitenzijde"
+      },
+      {
+        "naam": "Voordeur met Bovenlicht",
+        "type": "deur",
+        "vakken_horizontaal": 1,
+        "vakken_verticaal": 2,
+        "totale_breedte_mm": 1000,
+        "totale_hoogte_mm": 2400,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 90,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR++ Dubbel (4-14-4-15-4)",
+        "offset_vloer_mm": 0,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 1.08,
+        "toepassing": "Hoofdentree",
+        "vak_configuratie": [
+          {
+            "rij": 0,
+            "kolom": 0,
+            "type": "Deur",
+            "hoogte_mm": 2135,
+            "draairichting": "Rechts"
+          },
+          {
+            "rij": 1,
+            "kolom": 0,
+            "type": "Glas",
+            "hoogte_mm": 200
+          }
+        ]
+      },
+      {
+        "naam": "Achterdeur met Zijlicht",
+        "type": "deur",
+        "vakken_horizontaal": 2,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 1600,
+        "totale_hoogte_mm": 2400,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 90,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR++ Dubbel (4-14-4-15-4)",
+        "offset_vloer_mm": 0,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 1.08,
+        "toepassing": "Achterentree, tuindeur",
+        "vak_configuratie": [
+          {
+            "rij": 0,
+            "kolom": 0,
+            "type": "Deur",
+            "breedte_mm": 930,
+            "draairichting": "Rechts"
+          },
+          {
+            "rij": 0,
+            "kolom": 1,
+            "type": "Glas",
+            "breedte_mm": 510
+          }
+        ]
+      },
+      {
+        "naam": "Toilet/Badkamer Raam",
+        "type": "raam",
+        "vakken_horizontaal": 1,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 600,
+        "totale_hoogte_mm": 600,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 90,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR+++ Triple Matglas",
+        "offset_vloer_mm": 1800,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 0.99,
+        "toepassing": "Sanitaire ruimtes",
+        "opmerking": "Privacy glas, hoge plaatsing"
+      },
+      {
+        "naam": "Garagedeur Kozijn",
+        "type": "deur",
+        "vakken_horizontaal": 1,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 2500,
+        "totale_hoogte_mm": 2500,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 160,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Grenen",
+        "glas_type": "Geen",
+        "offset_vloer_mm": 0,
+        "sponning_type": "Buiten",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "toepassing": "Garage, berging",
+        "opmerking": "Extra dik kozijn, stalen onderkoker"
+      },
+      {
+        "naam": "Dakraam Opstelling",
+        "type": "raam",
+        "vakken_horizontaal": 2,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 1800,
+        "totale_hoogte_mm": 800,
+        "randstijl_breedte_mm": 80,
+        "randstijl_dikte_mm": 90,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR+++ Triple",
+        "offset_vloer_mm": 2500,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 0.99,
+        "toepassing": "Daklicht, vide",
+        "opmerking": "Hoge plaatsing, vaak vast glas"
+      },
+      {
+        "naam": "Hefschuifpui 4-delig",
+        "type": "schuifpui",
+        "vakken_horizontaal": 4,
+        "vakken_verticaal": 1,
+        "totale_breedte_mm": 4800,
+        "totale_hoogte_mm": 2400,
+        "randstijl_breedte_mm": 86,
+        "randstijl_dikte_mm": 120,
+        "tussenstijl_breedte_mm": 65,
+        "middenregel_hoogte_mm": 65,
+        "materiaal": "Meranti",
+        "glas_type": "HR+++ Triple (4-14-4-15-4)",
+        "offset_vloer_mm": 0,
+        "sponning_type": "Binnen",
+        "heeft_spouwlat": true,
+        "heeft_folie": true,
+        "u_waarde": 0.90,
+        "toepassing": "Tuinkamer, woonkamer",
+        "opmerking": "2 vast, 2 schuivend"
+      }
+    ],
+    "materiaal_specificaties": {
+      "Meranti": {
+        "soort": "Hardhout",
+        "duurzaamheidsklasse": "II-III",
+        "onderhoudsinterval_jaren": 5,
+        "verflaag_mu": 140,
+        "kleuren": ["Naturel", "RAL 9001", "RAL 9016", "RAL 7016"],
+        "u_waarde_kozijn": 1.6
+      },
+      "Grenen": {
+        "soort": "Naaldhout",
+        "duurzaamheidsklasse": "IV",
+        "onderhoudsinterval_jaren": 4,
+        "verflaag_mu": 140,
+        "behandeling": "Geïmpregneerd",
+        "u_waarde_kozijn": 1.8
+      },
+      "Kunststof": {
+        "soort": "PVC-U",
+        "kleurvastheid": "Klasse A",
+        "onderhoudsinterval_jaren": 0,
+        "afwerking_opties": ["Houtnerfstructuur", "Glad", "Acryl"],
+        "systeem": "MondiPlus of Gealan",
+        "u_waarde_kozijn": 1.3
+      }
+    },
+    "glas_specificaties": {
+      "HR++ Dubbel": {
+        "opbouw": "5-15-4 mm",
+        "totale_dikte_mm": 24,
+        "u_waarde": 1.2,
+        "gewicht_kg_m2": 20
+      },
+      "HR+++ Triple": {
+        "opbouw": "4-14-4-15-4 mm",
+        "totale_dikte_mm": 41,
+        "u_waarde": 0.6,
+        "gewicht_kg_m2": 30,
+        "standaard": true
+      },
+      "HR++ Dubbel Extra": {
+        "opbouw": "4-14-4-15-4 mm",
+        "totale_dikte_mm": 41,
+        "u_waarde": 1.08
+      }
+    },
+    "montage_specificaties": {
+      "spouwlat": {
+        "materiaal": "Gelamineerd grenen",
+        "afmeting_mm": "18 x 50",
+        "behandeling": "120 Mu verf"
+      },
+      "pe_folie": {
+        "dikte_mu": 120,
+        "kleur": "Transparant",
+        "functie": "Bouwfasebescherming"
+      },
+      "bevestiging": {
+        "ankers_afstand_max_cm": 75,
+        "ankers_vanaf_hoek_cm": "10-30",
+        "type": "Flex-support"
+      },
+      "sponning": {
+        "diepte_mm": 15,
+        "breedte_mm": 12,
+        "glasaftrek_mm": 10
+      }
+    },
+    "kwaliteitseisen": {
+      "certificering": "KOMO",
+      "aflever_concept": "II+ (Hout) / Verpakt in PE (Kunststof)",
+      "garantie_jaren": 10,
+      "veiligheid": "Politie Keurmerk Veilig Wonen Klasse 2",
+      "brandklasse": "D-s2,d0",
+      "isolatie_eis_Rc": 4.7
+    }
+  }
+}
