@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Pointcloud Slice Tool
+Scan2BIM 
 =====================
 Extraheer punten uit een pointcloud slice en genereer Revit elementen.
 
